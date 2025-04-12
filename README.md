@@ -5,6 +5,6 @@ The hurricane animations in the stimuli folder are animated gifs created via Ima
 
 ![hurricane animation](https://github.com/ecmerkle/shiny_hurricane_expt/blob/main/stimuli/hurricane8.gif)
 
-The code was written around 2015, when Shiny was pretty new. At the time, I was sick of Qualtrics and looking for alternative ways to design an online study. The study relies on a bunch of conditional statements to determine what should be displayed when. It also writes some results to file to keep track of running scores, then it reads the file at the end to compute total scores.
+The code was written around 2015, when Shiny was pretty new. At the time, I was tired of Qualtrics and looking for alternative ways to design an online study. The study relies on a bunch of conditional statements to determine what should be displayed when. It also writes some results to file to keep track of running scores, then reads the file at the end to compute total scores.
 
-When the study first went live on Mechanical Turk, we immediately crashed the server because too many people were doing the study at once. But we eventually worked that out, and I would use this approach over Qualtrics again if I had to.
+When the study first went live on Mechanical Turk, we crashed the server because too many people were doing the study at once. But we eventually worked that out, and I ended up favoring this approach over Qualtrics.
